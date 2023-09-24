@@ -10,7 +10,7 @@ import {GovernorVotesQuorumFraction} from
 import {
     GovernorTimelockControl,
     TimelockController
-} from "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol";
+} from "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"; // if a DAO votes for something 
 
 contract MyGovernor is
     Governor,
